@@ -1,7 +1,7 @@
 .header
 	display flex
 	padding 10px
-	max-width 1300px
+	max-width 1200px
 	margin auto
 	justify-content space-between
 	align-items center
@@ -10,19 +10,28 @@
 	transform translate(-50%)
 	width 100%
 	z-index 2
+	top 20px
 	&__logo
-		background-color yellow
+		// background-color yellow
+		color #fff
+		text-transform uppercase
+		font-family poppins-semibold
+		font-size 18px
 	&__menu
 		display flex
 		justify-content space-around
 		@media screen and (max-width 768px)
 			display none
 		&__link
+			display block
 			padding 15px 20px
 			color #fff
+			font-size 15px
+			// text-shadow 1px 1px 1px #222
 	&__button
+		background-color var(--c-primary)
+		border-radius 8px
 		&-menu
 			display none
 			@media screen and (max-width 768px)
 				display block
-			
