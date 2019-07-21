@@ -1,0 +1,28 @@
+.header
+	display flex
+	padding 10px
+	max-width 1300px
+	margin auto
+	justify-content space-between
+	align-items center
+	position absolute
+	left 50%
+	transform translate(-50%)
+	width 100%
+	z-index 2
+	&__logo
+		background-color yellow
+	&__menu
+		display flex
+		justify-content space-around
+		@media screen and (max-width 768px)
+			display none
+		&__link
+			padding 15px 20px
+			color #fff
+	&__button
+		&-menu
+			display none
+			@media screen and (max-width 768px)
+				display block
+			
