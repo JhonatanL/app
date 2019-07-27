@@ -2,12 +2,8 @@
 	--c-primary #5E2CED
 	--c-dark #212529
 	--c-white #fff
-main
-	// margin auto
-section
-	width 100%
-	&:nth-child(odd)
-		background-color #f3f3f3
+	--c-text #777
+
 @font-face
 	src url(../fonts/Open_Sans/OpenSans-Regular.ttf)
 	font-family 'sans'
@@ -38,6 +34,15 @@ section
 h2
 	font-family: 'Poppins', sans-serif
 	font-family: 'open sans', sans-serif
-	
+p
+	color var(--c-text)
+	line-height 1.9em
+main
+	// margin auto
+section
+	width 100%
+	padding 80px 0
+	&:nth-child(odd)
+		background-color #F7F7F7
 body
 	font-family poppins-regular
