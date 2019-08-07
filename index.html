@@ -7,7 +7,7 @@
 	<meta name="description" content="Cerro de Pasco, Radio SuperStudio">
 	<!-- <link rel="stylesheet" href="css/critical.css"> -->
 </head>
-<body>
+<body id="body">
 	<nav class="header">
 		<h1 class="header__logo">Radio SuperStudio</h1>
 		<span class="header__button-menu" id="btn-menu" onclick="myFunction()"><i class="fa fa-bars"></i></span>
@@ -29,7 +29,7 @@
 				<a href="#contacto" class="header__menu__link">Contactenos</a>
 			</li>
 			<li class="header__button">
-				<a href="#" class="header__menu__link">Ingresar</a>
+				<a class="header__menu__link" onclick="myTheme()" href="#">Oscuro</a>
 			</li>
 		</ul>
 	</nav>
@@ -331,6 +331,7 @@
 		menu.classList.toggle("active");
 	}
 </script>
+<script src="js/theme.js"></script>
 <script>
     (function(d, w, c) {
         w.ChatraID = 'ADcikF4BQzCwq426M';
